@@ -1,0 +1,133 @@
+﻿/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+
+/* Set haedshot image elements */
+.headshot {
+    box-sizing: border-box;
+    /*
+        position: absolute;
+        clip: rect(20px,290px,290px,20px);
+        
+        不知道為什麼用並排的話，會變成文字在前的設定，故不符合需求
+        需要position 做為切割基準點
+        值：上、右、下、左
+        上、下的起點是上方為 0
+        右、左的起點是左邊為 0
+    */
+}
+
+/* Set div width elements */
+.widthDiv {
+    width: 640px;
+}
+
+/* Set logo image elements */
+.logo {
+    display: inline-block;
+    margin-bottom: 24px;
+}
+
+/* Set elements 並排*/
+.BoxFlex {
+    display: flex;
+}
+
+/* Set elements float*/
+.BoxFloat {
+    float: left;
+}
+
+/* Set elements */
+.advanceFlex {
+    justify-content: flex-end;
+}
+
+/* Set paragraph title + paragraph elements */
+.paragraphBox {
+    padding: 0px 20px 0px 20px;
+    margin-bottom: 24px;
+    background-color: #69696924;
+}
+
+
+/* Set paragraph title */
+.title {
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+/* Set paragraph */
+.paragraphBox>p {
+    width: 288px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Set footer elements */
+footer {
+    background-color: grey;
+    padding: 48px;
+    /*文字水平置中*/
+    text-align: center;
+}
+
+/* Set footer elements */
+footer>p {
+    
+    font-size: 16px;
+    line-height: 1.5;
+}

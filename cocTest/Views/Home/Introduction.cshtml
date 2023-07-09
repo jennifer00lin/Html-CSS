@@ -1,0 +1,46 @@
+﻿
+@{
+    ViewBag.Title = "Introduction";
+}
+@Styles.Render("~/CSS/css")
+@*@Scripts.Render("~/bundles/modernizr")*@
+
+@*沒啥用，只是用來看看長寬對不對而已*@
+<div class="widthDiv">
+    @*中間的最新消息div*@
+    <div class="BoxFloat">
+        @*一組最新消息*@
+        <div class="BoxFlex">
+            <img src="https://fakeimg.pl/96x96/" width="96" height="96" class="headshot" />
+
+            <div class="paragraphBox">
+                <h2 class="title">Title Lorem..</h2>
+                <p>
+                    font-size:16px; line-height:1.5 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum fugit, repellat, commodi culpa
+                </p>
+            </div>
+        </div>
+
+        @*一組最新消息*@
+        <div class="BoxFlex">
+            <img src="https://fakeimg.pl/96x96/" width="96" height="96" class="headshot" />
+
+            <div class="paragraphBox">
+                <h2 class="title">Title Lorem..</h2>
+                <p>
+                    font-size:16px; line-height:1.5 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum fugit, repellat, commodi culpa
+                </p>
+            </div>
+        </div>
+    </div>
+    @*廣告img*@
+    <img src="~/Image/icon3.png" width="216" height="216" alt="logo" class="logo">
+    
+    @*footer*@
+    <footer>
+        <p>
+            Copyright© 2023 XD
+        </p>
+    </footer>
+</div>
+
